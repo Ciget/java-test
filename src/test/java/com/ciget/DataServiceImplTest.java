@@ -11,4 +11,9 @@ class DataServiceImplTest {
     void ShouldGetTaxes() {
         assertEquals(2, service.getTaxes().size());
     }
+
+    @Test
+    void ShouldFail() {
+        assertEquals(23, service.getTaxes().size());
+    }
 }

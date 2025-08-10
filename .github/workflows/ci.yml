@@ -32,12 +32,8 @@ jobs:
           distribution: 'temurin'
           cache: maven
       - name: Build with Maven
-        run: mvn -B package -DskipTests --file pom.xml
+        run: mvn -B package --file pom.xml
 
-  run-unit-tests:
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
-    - name: Run Unit Tests
-      run: mvn test
+#      - name: Run Unit Tests
+#        run: mvn test
 

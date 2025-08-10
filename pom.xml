@@ -61,7 +61,7 @@
             <!-- keep only one Spring Boot plugin declaration -->
             <plugin>
                 <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
+                <artifactId>spring-bootweww-maven-plugin</artifactId>
                 <configuration>
                     <jvmArguments>-Dspring.application.admin.enabled=true</jvmArguments>
                 </configuration>

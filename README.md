@@ -6,3 +6,4 @@
 sample test
 
 new lined 
+version 1.0

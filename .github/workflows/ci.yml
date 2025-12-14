@@ -51,4 +51,4 @@ jobs:
           name: surefire-reports
           path: |
             **/target/surefire-reports/**
-            **/target/failsafe-reports/**
+

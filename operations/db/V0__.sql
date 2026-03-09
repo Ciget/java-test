@@ -1,4 +1,0 @@
-CREATE TABLE sample
-(
-    id INTEGER NOT NULL
-);
